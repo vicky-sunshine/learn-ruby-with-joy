@@ -5,7 +5,7 @@
 開發 Rails 蠻仰賴命令列輸入的，而 Windows 內建的命令列功能沒有很完整，所以我們需要一個有最基本功能的命令列工具。Git 是一套版本控管套件，可以方便開發者記錄自己的進度，Git Bash 是他提供的命令列工具，支援 Git 指令還有基本的 *nix 指令。
 
 ### 安裝 Git Bash
-到 [Git 下載網頁](https://git-scm.com/downloads) 選擇 Windows 版本下載，下在下來後，初心者基本上就只要接受他預設設定，一直按下一步即可。
+到 [Git 下載網頁](https://git-scm.com/downloads) 選擇 Windows 版本下載，下載下來後，初心者基本上就只要接受他預設設定，一直按下一步即可。
 
 完成後，可以在開始工具列看到 Git Bash 的選項，也可以在特定資料夾下，按右鍵開啟。
 
@@ -17,13 +17,13 @@
 
 
 ### 基本指令
-這邊我們不先教 Git 指令，先列出一些常用的 *nix 指令。
+這邊我們先不教 Git 指令，先列出一些常用的 *nix 指令。
 ```shell
 $ cd folder	# 打開某資料夾
 $ cd ..		# 到上一層資料夾
 $ pwd		# 列出當前路徑
 $ ls		# 列出這個資料夾下有的資料夾或檔案
-$ cat	file	# 查看某個檔案內容
+$ cat file	# 查看某個檔案內容
 $ mkdir	folder	# 創新資料夾
 $ rm file	# 刪除某個檔案
 ```
@@ -31,7 +31,7 @@ $ rm file	# 刪除某個檔案
 
 ## 安裝 Ruby, Rails, Git 和一些網站開發套件
 ### 安裝 Ruby
-Windows 沒有內建 Ruby 和 Rails，所以我們需要另行安裝，在 Windows 的系統上，有一個很方便的安裝包，叫做 [Ruby Installer](http://rubyinstaller.org/downloads/) 下載 Ruby 2.3.3 (x64) 安裝檔
+Windows 沒有內建 Ruby 和 Rails，所以我們需要另行安裝，在 Windows 的系統上，有一個很方便的安裝包，叫做 [Ruby Installer](http://rubyinstaller.org/downloads/)，我們下載 Ruby 2.3.3 (x64) 安裝檔
 
 基本上就是一直下一步，要注意到安裝前最後一步時，會有三個選項
 
